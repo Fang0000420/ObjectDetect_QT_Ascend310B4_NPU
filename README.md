@@ -4,6 +4,7 @@
 
 1. **ModelConvert**: 转个锤子直接用sample里的模型(将 YOLOv11 模型从 PyTorch (`.pt`) 转换为 ONNX，最终转换为昇腾 NPU 专用的 `.om` (Offline Model) 格式)。
 2. **HumanDetect**: 一个基于 Qt6 C++ 的图形化界面程序，通过嵌入式 Python (PyBind11) 调用 NPU 进行实时推理。
+3. 需要自己build一下
 
 ## 📋 项目环境与依赖
 
